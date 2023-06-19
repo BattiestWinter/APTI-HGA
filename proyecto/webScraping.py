@@ -19,7 +19,7 @@ search = input("Búsqueda: ")
 location = input("Ubicación: ")
 
 # Definición del controlador
-s = Service('E:/Users/drago/Downloads/SS/chromedriver.exe')
+s = Service('C:/Users/drago/Downloads/APTI-HGA/chromedriver.exe')
 driver = webdriver.Chrome(service = s)
 
 # Link del sitio web

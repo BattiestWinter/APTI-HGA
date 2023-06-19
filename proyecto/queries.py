@@ -59,7 +59,7 @@ for j in queries:
                 # print("MUNICIPIO:\n")
                 # print(township[searchTown[0]]) Primera parte del split
         
-                os.chdir('C:/Users/drago/Downloads/SS/proyecto/baseDatos')
+                os.chdir('C:/Users/drago/Downloads/APTI-HGA/proyecto/baseDatos')
                 df = pd.read_csv(archivo)
                 df_text = df['texto']
                 # Conversión de los elementos del data frame a string para poder aplicar la función lower case
@@ -124,7 +124,7 @@ for j in queries:
     except Exception:
         print("palabra no encontrada")
     
-    os.chdir('C:/Users/drago/Downloads/SS/proyecto/baseDatosG')
+    os.chdir('C:/Users/drago/Downloads/APTI-HGA/proyecto/baseDatosG')
     # Data Frame para cada búsqueda
     dfMap = pd.DataFrame({'municipio':mapData.keys(), 'frecuencia':mapData.values()})
     dfMap.to_csv('%s.csv' % j, index=False)

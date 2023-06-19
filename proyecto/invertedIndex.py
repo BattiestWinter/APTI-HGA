@@ -16,7 +16,7 @@ indice = []
 dictionary = {}
 
 # Directorio de trabajo
-os.chdir('C:/Users/drago/Downloads/SS/proyecto/baseDatos')
+os.chdir('C:/Users/drago/Downloads/APTI-HGA/proyecto/baseDatos')
 files_csv = os.listdir()
 
 # Patrón para la tokenización del texto

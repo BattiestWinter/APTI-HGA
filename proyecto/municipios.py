@@ -9,7 +9,7 @@ import json
 import pandas as pd
 import os
 
-os.chdir('C:/Users/drago/Downloads/SS/proyecto/baseDatos')
+os.chdir('C:/Users/drago/Downloads/APTI-HGA/proyecto/baseDatos')
 dictionary = {}
 count = 0
 entidad_tmp = ""
